@@ -137,6 +137,7 @@ public class NotifyActivity extends AppCompatActivity {
                 myRef.child("Availabilities").push().setValue(availability);
 
                  */
+                APICaller.testAPI();
                 Toast.makeText(NotifyActivity.this, "La tua segnalazione è stata salvata", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
             }
